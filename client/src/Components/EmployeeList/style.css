@@ -1,0 +1,31 @@
+.cardContain {
+    font-family: 'Mulish', sans-serif;
+}
+
+.name {
+    color: #4072EE;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.user_id {
+    margin: 0;
+    color: #748AA1;
+    letter-spacing: 0.5px;
+}
+
+.logHeading {
+    font-weight: 800;
+    letter-spacing: 0.3px;
+    color: #31394D;
+    margin: 0;
+}
+
+.date {
+    color: #FF9500;
+    /* color: #EEBC40; */
+    /* color: #748AA1; */
+    /* font-weight: 600; */
+    margin: 0;
+}

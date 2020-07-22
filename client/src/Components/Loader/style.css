@@ -1,0 +1,11 @@
+.loaderContainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loadingContain {
+    height: 100vh;
+    width: 200;
+}
