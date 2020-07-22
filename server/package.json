@@ -2,10 +2,11 @@
   "name": "server",
   "version": "1.0.0",
   "description": "api to get user info",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "start": "node server.js"
   },
   "author": "Mohammad Zimam Sayeed",
   "license": "ISC",
@@ -13,8 +14,6 @@
     "nodemon": "^2.0.4"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "morgan": "^1.10.0"
+    "aws-serverless-express": "^3.3.8"
   }
 }
