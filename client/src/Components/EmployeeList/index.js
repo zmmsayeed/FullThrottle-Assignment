@@ -42,7 +42,9 @@ class EmployeeList extends Component {
                                 </Card>
                                 <OutlineCard>
                                     <div className="text-center">
-                                        <span className="link">View All Activities</span>
+                                        <span className="link" onClick={() => this.props.onClick(user)}>
+                                            View All Activities
+                                        </span>
                                     </div>
                                 </OutlineCard>
                             </div>

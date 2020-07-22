@@ -1,0 +1,49 @@
+
+.modalHeader {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color: #4072EE;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 16px;
+}
+
+.modalId {
+    font-family: 'Mulish', sans-serif;
+    color: #31394D;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.activityHeading {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color: #31394D;
+    letter-spacing: 0.5px;
+}
+
+.modalDate {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    margin: 0;
+    color: #FF9500;
+}
+
+table {
+    font-family: 'Mulish', sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #dfdfdf;
+}
+
+table th {
+    border-bottom: 2px solid #dfdfdf;
+    padding: 0.5em;
+}
+
+table td {
+    padding: 0.2em 0.5em;
+}

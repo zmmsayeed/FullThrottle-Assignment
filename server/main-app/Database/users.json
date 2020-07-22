@@ -26,8 +26,8 @@
 			"tz": "Asia/Kolkata",
 			"activity_periods": [
 				{
-					"start_time": "Feb 1 2020  1:33PM",
-					"end_time": "Feb 1 2020 1:54PM"
+					"start_time": "Feb 27 2020  1:33PM",
+					"end_time": "Feb 27 2020 1:54PM"
 				},
 				{
 					"start_time": "Mar 1 2020  11:11AM",
@@ -40,7 +40,7 @@
 			]
 		},
 		{
-			"id": "W07QCRPA4",
+			"id": "W07QCRPA1",
 			"real_name": "Mohammad Zimam Sayeed",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [
@@ -49,6 +49,14 @@
 					"end_time": "Feb 1 2020 1:54PM"
 				},
 				{
+					"start_time": "Feb 1 2020  2:30PM",
+					"end_time": "Feb 1 2020 4:00PM"
+				},
+				{
+					"start_time": "Feb 1 2020  5:00PM",
+					"end_time": "Feb 1 2020 6:30PM"
+				},
+				{
 					"start_time": "Mar 1 2020  11:11AM",
 					"end_time": "Mar 1 2020 2:00PM"
 				},
@@ -59,8 +67,8 @@
 			]
 		},
 		{
-			"id": "W07QCRPA4",
-			"real_name": "Rafa Zamier",
+			"id": "W07QCRPA2",
+			"real_name": "Rafai Zameir",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [
 				{
@@ -78,7 +86,7 @@
 			]
 		},
 		{
-			"id": "W07QCRPA4",
+			"id": "N07QCRPA3",
 			"real_name": "Viral Patel",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [
@@ -97,7 +105,7 @@
 			]
 		},
 		{
-			"id": "W07QCRPA4",
+			"id": "P07QCRPA4",
 			"real_name": "Pandemic Dsouza",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [
@@ -116,7 +124,7 @@
 			]
 		},
 		{
-			"id": "W07QCRPA4",
+			"id": "V07QCRPBC",
 			"real_name": "Sad Arjit",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [
@@ -135,7 +143,7 @@
 			]
 		},
 		{
-			"id": "W07QCRPA4",
+			"id": "Z37QCRPA4",
 			"real_name": "Never Goa",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [
@@ -154,7 +162,26 @@
 			]
 		},
 		{
-			"id": "W07QCRPA4",
+			"id": "F07QCRPA4",
+			"real_name": "Covid Khan",
+			"tz": "Asia/Kolkata",
+			"activity_periods": [
+				{
+					"start_time": "Feb 1 2020  1:33PM",
+					"end_time": "Feb 1 2020 1:54PM"
+				},
+				{
+					"start_time": "Mar 1 2020  11:11AM",
+					"end_time": "Mar 1 2020 2:00PM"
+				},
+				{
+					"start_time": "Mar 16 2020  5:33PM",
+					"end_time": "Mar 16 2020 8:02PM"
+				}
+			]
+		},
+		{
+			"id": "S07QCRPZ9",
 			"real_name": "Glinda Southgood",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [
@@ -173,7 +200,7 @@
 			]
 		},
 		{
-			"id": "W07QCRPA4",
+			"id": "M07QCRPG4",
 			"real_name": "Glinda Southgood",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [
@@ -192,26 +219,7 @@
 			]
 		},
 		{
-			"id": "W07QCRPA4",
-			"real_name": "Glinda Southgood",
-			"tz": "Asia/Kolkata",
-			"activity_periods": [
-				{
-					"start_time": "Feb 1 2020  1:33PM",
-					"end_time": "Feb 1 2020 1:54PM"
-				},
-				{
-					"start_time": "Mar 1 2020  11:11AM",
-					"end_time": "Mar 1 2020 2:00PM"
-				},
-				{
-					"start_time": "Mar 16 2020  5:33PM",
-					"end_time": "Mar 16 2020 8:02PM"
-				}
-			]
-		},
-		{
-			"id": "W07QCRPA4",
+			"id": "K47QCRP09",
 			"real_name": "Glinda Southgood",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [

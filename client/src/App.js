@@ -4,6 +4,7 @@ import React from 'react';
 import Loader from './Components/Loader';
 import Navbar from './Components/Navbar';
 import EmployeeList from './Components/EmployeeList';
+import Modal from './Components/Modal';
 
 // importing stylesheet
 import './App.css';
@@ -13,18 +14,19 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      loading: true
+      loading: true,
+      modalVisible: false,
+      modalData: ""
     }
   }
 
   componentDidMount() {
     // setTimeout to show loader, thats it
-    // setTimeout(() => {
+    setTimeout(() => {
       fetch("http://localhost:3001/getUsers")
         .then(res => res.json())
         .then(
           (result) => {
-            console.log("Second Result: ", JSON.stringify(result))
             this.setState({
               loading: false,
               users: result
@@ -49,7 +51,14 @@ class App extends React.Component {
             error
           });
         })
-    // }, 2000)
+    }, 2000)
+  }
+
+  modalVisiblity = (data) => {
+    let visible = this.state.modalVisible
+    visible
+    ? this.setState({ modalVisible: false})
+    : this.setState({ modalVisible: true, modalData: data })
   }
 
   render() {
@@ -61,20 +70,16 @@ class App extends React.Component {
         <div className="App">
           <Navbar />
 
-          <EmployeeList users={this.state.users.data} />
+          <EmployeeList 
+            users={this.state.users.data} 
+            onClick={this.modalVisiblity}
+          />
 
-          {/* {
-            !this.state.users ? ""
-              : !this.state.users.data ? "No data could be fetched"
-                : this.state.users.data.map(user => (
-                  <div className="container pt-5">
-                    <Card> Mohammad Zimam Sayeed </Card>
-                    <OutlineCard>
-                      <div className="text-center">View All Activities</div>
-                    </OutlineCard>
-                  </div>
-                ))
-          } */}
+          <Modal 
+            visible={this.state.modalVisible} 
+            onClose={this.modalVisiblity}
+            user={this.state.modalData}
+          />
 
         </div>
       );
