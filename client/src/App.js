@@ -23,7 +23,8 @@ class App extends React.Component {
   componentDidMount() {
     // setTimeout to show loader, thats it
     setTimeout(() => {
-      fetch("http://localhost:3001/getUsers")
+      // fetch("https://v6i50yvege.execute-api.ap-south-1.amazonaws.com/test/")
+      fetch("http://localhost:3001/")
         .then(res => res.json())
         .then(
           (result) => {
