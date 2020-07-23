@@ -47,3 +47,9 @@ table th {
 table td {
     padding: 0.2em 0.5em;
 }
+
+.noActivityPara {
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 0.5px;
+    margin-top: 1em;
+}
