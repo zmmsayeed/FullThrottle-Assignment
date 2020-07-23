@@ -12,7 +12,6 @@ import './style.css';
 
 class EmployeeList extends Component {
     render() {
-        let users = this.props.users
         return (
             <div className="container pt-5">
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import moment from 'moment';
-import _ from 'lodash';
 
 // import Drawer from Ant Design
 import { Drawer } from 'antd';
@@ -48,7 +47,7 @@ class Modal extends Component {
                                             let date = moment(activity.start_time, "MMM DD YYYY hh:mm A").format("MMMM DD, YYYY")
 
                                             if (activityArr.includes(date)) {
-
+                                                return null
                                             }
                                             else {
                                                 activityArr.push(date);
@@ -84,7 +83,6 @@ class Modal extends Component {
                                                                             </tr>
                                                                         </>)
                                                                     }
-                                                                    return <p>Start Time: {entry.start_time} - End Time: {entry.end_time}</p>
                                                                 })
                                                             }
 
