@@ -60,5 +60,11 @@ npm start
 This will open a web page on the URL ```localhost:3000```
 If that doesn't happen you can manually enter the above URL in a browser.
 
+If you wish to change the data and see the application, then data can be changed by navigating and changing the following file: 
+```properties
+server > main-app > Database > user.json
+```
+
+
 
 
