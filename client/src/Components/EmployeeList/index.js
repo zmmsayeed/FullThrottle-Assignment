@@ -39,7 +39,7 @@ class EmployeeList extends Component {
                                         {
                                             user.activity_periods.length > 0
                                             ? user.activity_periods[user.activity_periods.length - 1].start_time + " - " + user.activity_periods[user.activity_periods.length - 1].end_time
-                                            : ""
+                                            : "No Activity Recorded"
                                         }
                                     </p>
                                 </Card>
