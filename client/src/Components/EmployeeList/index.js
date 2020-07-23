@@ -13,7 +13,7 @@ import './style.css';
 class EmployeeList extends Component {
     render() {
         return (
-            <div className="container pt-5">
+            <div className="container ">
 
                 <List
                     grid={{ xs: 1, sm: 1, md: 1, lg: 3, xl: 3, xxl: 3 }}

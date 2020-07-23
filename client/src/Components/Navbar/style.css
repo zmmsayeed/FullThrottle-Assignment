@@ -1,0 +1,39 @@
+.navbar {
+    padding: 0 1rem !important;
+}
+
+.bg-white {
+    background-color: white!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Mulish', sans-serif;
+    color: #748AA1 !important;
+    font-weight: 600 !important;
+    margin-right: 1em;
+} 
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    font-family: 'Mulish', sans-serif;
+    color: #4072EE !important;
+    font-weight: bold !important;
+}
+
+/* To add the hover effect on the nav links */
+.nav-item a.nav-link {
+    position: relative;
+}
+.nav-item a.nav-link:before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 0%;
+    border-bottom: 4px solid rgba(255, 149, 0, 1);
+    transition: 0.4s;
+}
+
+.nav-item a.nav-link:hover:before {
+    width: 100%;
+}
+/* To add the hover effect on the nav links */
