@@ -49,6 +49,10 @@ cd ..
 cd ..
 cd client
 ```
+Install the dependencies required to run the application:
+```properties
+npm install
+```
 To run the client application run the following command:
 ```properties
 npm start
