@@ -58,7 +58,7 @@ class App extends React.Component {
   modalVisiblity = (data) => {
     let visible = this.state.modalVisible
     visible
-    ? this.setState({ modalVisible: false})
+    ? this.setState({ modalVisible: false, modalData: "" })
     : this.setState({ modalVisible: true, modalData: data })
   }
 
